@@ -15,8 +15,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd my-app/my-app
           yarn install
       - name: Build application
         run: |
+          cd my-app/my-app
           yarn build
