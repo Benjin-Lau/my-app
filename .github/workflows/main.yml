@@ -17,6 +17,6 @@ jobs:
         run: |
           yarn install
       - name: Build application
-        working-directory: my-app
         run: |
+          cd my-app
           yarn build
