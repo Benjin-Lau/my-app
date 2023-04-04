@@ -14,9 +14,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: |
+        run: cd my-app 
           yarn install
       - name: Build application
-        run: |
-          cd my-app
+        run: cd my-app
           yarn build
